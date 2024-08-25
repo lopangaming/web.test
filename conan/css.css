@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header nav {
+    background-color: #4B79A1;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+header nav span {
+    color: #FFD700;
+}
+
+.anime-info {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.anime-thumbnail img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.anime-details {
+    flex: 1;
+}
+
+.anime-details h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.rating span {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.anime-meta {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #777;
+}
+
+.anime-meta li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.episodes-buttons button {
+    background-color: #4B79A1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.episodes-buttons button:hover {
+    background-color: #355373;
+}
+
+.anime-stats p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.synopsis h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.synopsis p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.episodes-list {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.episodes-list h2 {
+    color: #333;
+}
+
+.episodes-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.episodes-list table th, .episodes-list table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.episodes-list table th {
+    background-color: #f8f8f8;
+}
+
+.episodes-list table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4B79A1;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,210 @@
+/* Mengatur font dan padding/margin dasar */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header dan navigasi */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.breadcrumb a:hover {
+    opacity: 1;
+}
+
+.episode-title {
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Deskripsi */
+.description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+/* Dropdown server */
+.server-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-toggle {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Pemutar video */
+.video-player {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: black;
+}
+
+.video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+/* Navigasi episode */
+.episode-navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #34495e;
+}
+
+/* Link sosial */
+.social-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #3498db;
+}
+
+/* Link download */
+.download-links {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.download-links h2 {
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #2ecc71;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
